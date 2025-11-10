@@ -1,6 +1,6 @@
-A RAG Teaching Assistant for Krish Naik's NLP (Hindi) YouTube course. Ask questions about the video content and get instant, accurate answers. Built with Python, Ollama, and Flask.
+#A RAG Teaching Assistant for Krish Naik's NLP (Hindi) YouTube course. Ask questions about the video content and get instant, accurate answers. Built with Python, Ollama, and Flask.
 
-# How to use this RAG AI Teaching assistant on your own data
+## How to use this RAG AI Teaching assistant on your own data
 ## Step 1 - Collect your videos
 Move all your video files to the videos folder
 
@@ -16,5 +16,6 @@ Use the file preprocess_json to convert the json files to a dataframe with Embed
 ## Step 5 - Prompt generation and feeding to LLM
 
 Read the joblib file and load it into the memory. Then create a relevant prompt as per the user query and feed it to the LLM
+
 
 
