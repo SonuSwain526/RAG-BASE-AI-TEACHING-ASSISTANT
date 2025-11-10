@@ -1,0 +1,521 @@
+{
+    "chunk": [
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 0.0,
+            "end": 30.0,
+            "text": "Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, today I am going to start an amazing playlist called Natural Language Processing. Now this is a very important playlist. We have seen machine learning, deep learning, stats, python. Now what is natural language processing? What is its roadmap if you want to read it? And always remember that natural language processing can be done with both machine learning and deep learning."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 30.0,
+            "end": 58.0,
+            "text": "So in this playlist, I will put videos related to NLP and will explain you completely end to end with all the things. So let's start without wasting any time. Please make sure that you subscribe the channel, press the bell notification icon and share all these videos with all your friends. So I will share my screen and here we are going to discuss the roadmap to learn natural language processing. First of all, we have learned a lot of things. Now let's talk about some use cases."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 58.0,
+            "end": 84.0,
+            "text": "Go to google.com and search for image. Now what happens in image search? Usually in search, you write cat eating food. Now when you write this information in the search bar, you will automatically get an image. Which will be a specific cat."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 84.0,
+            "end": 94.0,
+            "text": "Let's say. I am making a cat like this. My diagram is obviously bad. But just imagine. Now this cat is probably eating food."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 94.0,
+            "end": 105.0,
+            "text": "You get such type of image. Now here you see. This text is converting to an image. I am taking an example here. We will see many different examples later."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 105.0,
+            "end": 127.0,
+            "text": "But here an amazing thing. Whenever we are giving a text to google search, it is understanding that it is a text and converting it to a specific image. Ok. Whenever your input feature and input data is in the format of text. And if your application gives the correct type of response or output after understanding it."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 127.0,
+            "end": 138.0,
+            "text": "There we will use natural language processing specifically. Ok. So till now we have seen machine learning algorithms. What we used to do in machine learning algorithms? Data used to be here."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 138.0,
+            "end": 147.0,
+            "text": "Right. We used to apply a lot of process on this data. Like feature engineering, EDA. All those things. After that we used to give this data to model."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 147.0,
+            "end": 156.0,
+            "text": "It used to train on model. And this model gives a specific output. Right. It means. Now whenever I give my new input data."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 156.0,
+            "end": 167.0,
+            "text": "And some output will be given related to it. Now let's imagine that if my data is text. So I will give a specific model directly. So it will not understand the model. Ok."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 167.0,
+            "end": 176.0,
+            "text": "Model will definitely not understand. Because text data. Text information is human based. So according to human conversation. When two humans are talking."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 176.0,
+            "end": 184.0,
+            "text": "We are talking in a language. So here a specific text comes out. Right. Like I am saying how are you. So this is a text sentence."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 184.0,
+            "end": 195.0,
+            "text": "This is not directly understood by the application. Ok. So if I want to explain the application. What is this text information? In a good way."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 195.0,
+            "end": 209.0,
+            "text": "And to bring a specific output in its response. In that case I will use NLP. Natural language processing. So in short if I talk about NLP. So here your input data."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 209.0,
+            "end": 217.0,
+            "text": "Can be in text form. Or in audio form. Or even in video form. But in video. We will not consider frames."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 217.0,
+            "end": 227.0,
+            "text": "But we will consider the audio in the video. And with this audio. We will train such a model. That the model understands it. One example."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 227.0,
+            "end": 234.0,
+            "text": "I hope you must have seen Alexa. You must have seen Google home. We say. Alexa. Play this song."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 234.0,
+            "end": 244.0,
+            "text": "Right. What is the temperature outside. And according to that Alexa understands the sentence. And understands and understands. And according to that you are given a specific output."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 244.0,
+            "end": 250.0,
+            "text": "Right. Ok. The temperature outside is this much. Ok. So you have seen such type of scenarios."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 250.0,
+            "end": 260.0,
+            "text": "So this thing. The text data. How does the model understand it. And according to that how does it bring the output. We are going to discuss all that in this playlist."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 260.0,
+            "end": 268.0,
+            "text": "And a lot of amazing and interesting things. We will see a lot of amazing end to end applications. Related to NLP. Which will be very important. Now about NLP guys."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 268.0,
+            "end": 275.0,
+            "text": "Still the masters or PhD do. Right. Most research. Is related to NLP. Why?"
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 275.0,
+            "end": 283.0,
+            "text": "Because use case is very good. Google. Even Google. Now Google is trying that whenever you talk. Ok."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 283.0,
+            "end": 290.0,
+            "text": "Whenever you talk. Any voice related to it. That voice has sarcasm. Right. Sarcasm means."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 290.0,
+            "end": 296.0,
+            "text": "If someone is talking. If someone is talking with sadness. If someone is talking happily. Or in a funny way. That is also very important to know."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 296.0,
+            "end": 305.0,
+            "text": "And Google is trying to crack it. Ok. So I hope you have got a simple understanding. What is NLP. Ok."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 305.0,
+            "end": 315.0,
+            "text": "And here. Let me talk about some of the use cases. Let me talk about a very simple use case. Your use case can be chat bot. Ok."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 315.0,
+            "end": 322.0,
+            "text": "Your use case is sentiment analysis. Right. Sentiment analysis. Text classification. Text classification."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 322.0,
+            "end": 327.0,
+            "text": "There are a lot of amazing use cases. Which can be done through NLP. Obviously you have seen Alexa. You have seen Google home. They also use NLP somewhere."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 327.0,
+            "end": 332.0,
+            "text": "Ok. Now what we are going to do in this playlist. See. This text data. Right."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 332.0,
+            "end": 337.0,
+            "text": "Whenever our input data is text. We have to convert it in a different format. We have to convert it in a different format. Now. Let me show you."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 337.0,
+            "end": 342.0,
+            "text": "So. You have to convert it. Ok. So. So."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 342.0,
+            "end": 347.0,
+            "text": "So. So. So. So. Ok."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 347.0,
+            "end": 352.0,
+            "text": "Ok. Ok. So our input data. We have to convert it in a different format. This format."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 352.0,
+            "end": 357.0,
+            "text": "We basically call it vectors. These vectors are in numerical form. And from here to here. When we convert. Only then."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 357.0,
+            "end": 362.0,
+            "text": "These vectors that we give to the model. Only then. That will be understood by the model. Because the model. Always remember."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 362.0,
+            "end": 367.0,
+            "text": "Mathematically. Equation is inside it. Right. In the model. You can take any name of the algorithm."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 367.0,
+            "end": 372.0,
+            "text": "So whenever mathematical equation is used inside it. So the model. Will always want. That the input data which comes to me. That."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 372.0,
+            "end": 377.0,
+            "text": "That. In the form of numbers. And in this case. When we convert text to vectors. This."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 377.0,
+            "end": 419.0,
+            "text": "we convert it into vectors, this is usually done in numerical format. And after that, any specific output can be obtained. So we will see what is road map and this text to vectors conversion is called text pre-processing. We can give it another word which is called word embeddings. Word embeddings means we take any word and we convert it into vectors format."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 419.0,
+            "end": 439.0,
+            "text": "And the model understands that these are specific words and can perform many functions according to them. So this is a generic brief info about natural language processing. But the most important thing that we have to understand is road map. Road map of NLP. What all we are going to read in this specific playlist."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 439.0,
+            "end": 462.0,
+            "text": "And this road map is very important for anyone who wants to read natural language processing. And talking about NLP, it is used in two ways in both places. One is machine learning and other is deep learning. We will definitely start with machine learning but as we go ahead, we will also talk about deep learning. So if I make a road map, we will basically go bottom to top approach."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 462.0,
+            "end": 485.0,
+            "text": "Which I always like. So let's say my first step which you should always do. First step when you are reading NLP, you should know about some terms which we call text pre-processing. Text pre-processing is such a step that we will focus here. And I call this specifically level 1."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 485.0,
+            "end": 500.0,
+            "text": "This will be my level 1. Here we will specifically check how to clean data. How to clean text. How to do regular expression in text. And apart from that, we will also see how to convert sentences into words."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 500.0,
+            "end": 514.0,
+            "text": "How to clean words further. How to find out the base form of words. So here we are going to use some techniques which we call tokenization. Lematization. Okay."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 514.0,
+            "end": 530.0,
+            "text": "Lematization. And we will also use more of this which we call stop words. So this will be our level 1. When I will talk about this in the next video, I will specifically start with lemmatization, tokenization, stemming. We also call stemming."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 530.0,
+            "end": 544.0,
+            "text": "There is one more technique which we call stemming. Okay. We will know what all these things are and why it is so useful. Now let's go to the next step. We call the next step level 2 text pre-processing."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 544.0,
+            "end": 556.0,
+            "text": "Okay. And here we will go in the bottom to top approach so that our learning process is easy. So this was my text pre-processing. And this text pre-processing is our next step. This is also the first level."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 556.0,
+            "end": 568.0,
+            "text": "This is level 2. Okay. Here we will learn specifically some amazing ways of converting words into vectors. Here we will focus on words. We will focus here."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 568.0,
+            "end": 577.0,
+            "text": "I will write it here also. Wait. Here we will focus. Just a second. Here we will focus on how to convert words to vectors."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 577.0,
+            "end": 586.0,
+            "text": "Okay. So here in text pre-processing I will write bag of words. This is a very amazing way. Bag of words, one hot encoding. Okay."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 586.0,
+            "end": 600.0,
+            "text": "And tf, idf, unigrams, bigram, engrams. We can call all these things like this. Okay. So our second level in our learning process. When we will go from here to here."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 600.0,
+            "end": 608.0,
+            "text": "So in the next step we will read all these things. Bag of words, one hot encoding. Okay. So in the next step we will go to the next step. Bag of words, one hot encoding."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 608.0,
+            "end": 625.0,
+            "text": "Tf, idf, unigrams, engrams. And the main aim of this technique which we are using in level 2. It basically converts any word into vector form. Let's go to the next step which is our level 3. In level 3 we will see very important things."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 625.0,
+            "end": 639.0,
+            "text": "And here we call it level 3 of text pre-processing. And here we will start learning an amazing technique of converting words into vectors. Which we call word2vec. Okay. Word2vec."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 639.0,
+            "end": 655.0,
+            "text": "And we will use a special library which is called gensim. So here I will write gensim. Which will let you implement word2vec easily. And in this we will see two types of word2vec. One is cbow and one is skipgram."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 655.0,
+            "end": 671.0,
+            "text": "Okay. Which is second and level 3. Here we will see how we will make words efficient in a vector. There are some problems in bag of words, one-hot encoding, tf, idf. That's why we use word2vec."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 671.0,
+            "end": 683.0,
+            "text": "Okay. So we will learn how we can convert text into vectors. After this we will go to the next step. And here we will solve some amazing machine learning use cases. How to solve machine learning use cases?"
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 683.0,
+            "end": 695.0,
+            "text": "We will solve ML use cases here. Now the machine learning use cases which we will solve here. We will basically use algorithms. We will use all these text pre-processing techniques. And some of the use cases."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 695.0,
+            "end": 704.0,
+            "text": "If I talk about the use cases. Some use cases which we call spam classification. Spam classification. Text classification. Text similarity."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 704.0,
+            "end": 717.0,
+            "text": "Text summarization. We will solve all these use cases here in level 4. So here are so many steps. Now let's go to the next step. Here are all these steps till level 4."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 717.0,
+            "end": 732.0,
+            "text": "We will basically work in machine learning till here. Okay. Now when we go to level 5. So first thing you should always have understanding of deep learning. Now we are entering deep learning."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 732.0,
+            "end": 749.0,
+            "text": "So what understanding you should have here? Get the understanding of ANN. ANN means artificial neural network. Which we also call fully connected layers. This will be the very important introduction of our deep learning."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 749.0,
+            "end": 758.0,
+            "text": "Here we will specifically learn loss function. Optimizer. You have to understand all these things. Okay. Already I have made a playlist of all these in Hindi."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 758.0,
+            "end": 770.0,
+            "text": "So that it will be very useful and important for you. Apart from that. If I go to the next step. So after completing this next step. Something called as embedding layers."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 770.0,
+            "end": 783.0,
+            "text": "Embedding layers. This embedding layer is also a text pre-processing technique. Here we will again use word to vec. But from deep learning point of view. How you can make this word to vec in neural network."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 783.0,
+            "end": 790.0,
+            "text": "We will discuss all that. Okay. So this is my level 5. Okay. Level 5."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 790.0,
+            "end": 802.0,
+            "text": "And this is my level 6. So I hope you are understanding this. Okay. And this is the whole road map. I will teach this in this way in this playlist."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 802.0,
+            "end": 813.0,
+            "text": "After that we will enter in some hard techniques. And that technique we will specifically call. RNN. RNN. So after this we will understand what is RNN."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 813.0,
+            "end": 824.0,
+            "text": "What is RNN. What is LSTM RNN. What is Bi-directional LSTM RNN. Apart from that we will see encoders, decoders. Right."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 824.0,
+            "end": 840.0,
+            "text": "Attention models. We will read all these things in the deep learning side. And here we will see how all these models handle text data. And we will see how to solve many different use cases. If I go to another level above this."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 840.0,
+            "end": 846.0,
+            "text": "So the next level that we will use. We will read that. We call it. Transformers. Transformers."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 846.0,
+            "end": 861.0,
+            "text": "And there are many different types of transformers in the transformer. We are going to see all those things. After that the final stage that will be our. We will call it BERT. BERT will be our last step."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 861.0,
+            "end": 874.0,
+            "text": "And here we will use an amazing library specifically. Which we call Hugging Face. Ok. We will know about Hugging Face. Apart from this we will use a library called as NLTK."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 874.0,
+            "end": 882.0,
+            "text": "Spacey. Right. After that we are going to use more libraries. Like Tenserflow. And PyTorch."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 882.0,
+            "end": 895.0,
+            "text": "So we will use all these libraries basically. For practical purpose. So I definitely want to define this type of roadmap for everyone. Because it is a very important roadmap. And it will definitely help you to understand everything."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 895.0,
+            "end": 905.0,
+            "text": "Ok. So let's start the next video of NLP. I will start with text pre-processing. And here I want to keep a combination of theory and practical. But in short this is the roadmap of NLP."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 905.0,
+            "end": 916.0,
+            "text": "And I hope you all have understood the importance of NLP. Sometimes I have some text data or input data. To explain the model I have to do some steps. And to perform some tasks to that model. We will use any text data specifically for natural language processing."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 916.0,
+            "end": 921.0,
+            "text": "So let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 921.0,
+            "end": 926.0,
+            "text": "So let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 926.0,
+            "end": 931.0,
+            "text": "Let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 931.0,
+            "end": 936.0,
+            "text": "So let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 936.0,
+            "end": 941.0,
+            "text": "So let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 941.0,
+            "end": 947.0,
+            "text": "So let's start. So let's start. So let's start. So let's start. So let's start."
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 947.0,
+            "end": 952.0,
+            "text": "So, So, So, So, So,"
+        },
+        {
+            "title": "Hindi-Introduction And Roadmap To Learn Natural Language Processing(NLP)_Krish Naik(1)",
+            "start": 952.0,
+            "end": 954.0,
+            "text": "So, So,"
+        }
+    ],
+    "text": " Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, today I am going to start an amazing playlist called Natural Language Processing. Now this is a very important playlist. We have seen machine learning, deep learning, stats, python. Now what is natural language processing? What is its roadmap if you want to read it? And always remember that natural language processing can be done with both machine learning and deep learning. So in this playlist, I will put videos related to NLP and will explain you completely end to end with all the things. So let's start without wasting any time. Please make sure that you subscribe the channel, press the bell notification icon and share all these videos with all your friends. So I will share my screen and here we are going to discuss the roadmap to learn natural language processing. First of all, we have learned a lot of things. Now let's talk about some use cases. Go to google.com and search for image. Now what happens in image search? Usually in search, you write cat eating food. Now when you write this information in the search bar, you will automatically get an image. Which will be a specific cat. Let's say. I am making a cat like this. My diagram is obviously bad. But just imagine. Now this cat is probably eating food. You get such type of image. Now here you see. This text is converting to an image. I am taking an example here. We will see many different examples later. But here an amazing thing. Whenever we are giving a text to google search, it is understanding that it is a text and converting it to a specific image. Ok. Whenever your input feature and input data is in the format of text. And if your application gives the correct type of response or output after understanding it. There we will use natural language processing specifically. Ok. So till now we have seen machine learning algorithms. What we used to do in machine learning algorithms? Data used to be here. Right. We used to apply a lot of process on this data. Like feature engineering, EDA. All those things. After that we used to give this data to model. It used to train on model. And this model gives a specific output. Right. It means. Now whenever I give my new input data. And some output will be given related to it. Now let's imagine that if my data is text. So I will give a specific model directly. So it will not understand the model. Ok. Model will definitely not understand. Because text data. Text information is human based. So according to human conversation. When two humans are talking. We are talking in a language. So here a specific text comes out. Right. Like I am saying how are you. So this is a text sentence. This is not directly understood by the application. Ok. So if I want to explain the application. What is this text information? In a good way. And to bring a specific output in its response. In that case I will use NLP. Natural language processing. So in short if I talk about NLP. So here your input data. Can be in text form. Or in audio form. Or even in video form. But in video. We will not consider frames. But we will consider the audio in the video. And with this audio. We will train such a model. That the model understands it. One example. I hope you must have seen Alexa. You must have seen Google home. We say. Alexa. Play this song. Right. What is the temperature outside. And according to that Alexa understands the sentence. And understands and understands. And according to that you are given a specific output. Right. Ok. The temperature outside is this much. Ok. So you have seen such type of scenarios. So this thing. The text data. How does the model understand it. And according to that how does it bring the output. We are going to discuss all that in this playlist. And a lot of amazing and interesting things. We will see a lot of amazing end to end applications. Related to NLP. Which will be very important. Now about NLP guys. Still the masters or PhD do. Right. Most research. Is related to NLP. Why? Because use case is very good. Google. Even Google. Now Google is trying that whenever you talk. Ok. Whenever you talk. Any voice related to it. That voice has sarcasm. Right. Sarcasm means. If someone is talking. If someone is talking with sadness. If someone is talking happily. Or in a funny way. That is also very important to know. And Google is trying to crack it. Ok. So I hope you have got a simple understanding. What is NLP. Ok. And here. Let me talk about some of the use cases. Let me talk about a very simple use case. Your use case can be chat bot. Ok. Your use case is sentiment analysis. Right. Sentiment analysis. Text classification. Text classification. There are a lot of amazing use cases. Which can be done through NLP. Obviously you have seen Alexa. You have seen Google home. They also use NLP somewhere. Ok. Now what we are going to do in this playlist. See. This text data. Right. Whenever our input data is text. We have to convert it in a different format. We have to convert it in a different format. Now. Let me show you. So. You have to convert it. Ok. So. So. So. So. So. So. Ok. Ok. Ok. So our input data. We have to convert it in a different format. This format. We basically call it vectors. These vectors are in numerical form. And from here to here. When we convert. Only then. These vectors that we give to the model. Only then. That will be understood by the model. Because the model. Always remember. Mathematically. Equation is inside it. Right. In the model. You can take any name of the algorithm. So whenever mathematical equation is used inside it. So the model. Will always want. That the input data which comes to me. That. That. In the form of numbers. And in this case. When we convert text to vectors. This. we convert it into vectors, this is usually done in numerical format. And after that, any specific output can be obtained. So we will see what is road map and this text to vectors conversion is called text pre-processing. We can give it another word which is called word embeddings. Word embeddings means we take any word and we convert it into vectors format. And the model understands that these are specific words and can perform many functions according to them. So this is a generic brief info about natural language processing. But the most important thing that we have to understand is road map. Road map of NLP. What all we are going to read in this specific playlist. And this road map is very important for anyone who wants to read natural language processing. And talking about NLP, it is used in two ways in both places. One is machine learning and other is deep learning. We will definitely start with machine learning but as we go ahead, we will also talk about deep learning. So if I make a road map, we will basically go bottom to top approach. Which I always like. So let's say my first step which you should always do. First step when you are reading NLP, you should know about some terms which we call text pre-processing. Text pre-processing is such a step that we will focus here. And I call this specifically level 1. This will be my level 1. Here we will specifically check how to clean data. How to clean text. How to do regular expression in text. And apart from that, we will also see how to convert sentences into words. How to clean words further. How to find out the base form of words. So here we are going to use some techniques which we call tokenization. Lematization. Okay. Lematization. And we will also use more of this which we call stop words. So this will be our level 1. When I will talk about this in the next video, I will specifically start with lemmatization, tokenization, stemming. We also call stemming. There is one more technique which we call stemming. Okay. We will know what all these things are and why it is so useful. Now let's go to the next step. We call the next step level 2 text pre-processing. Okay. And here we will go in the bottom to top approach so that our learning process is easy. So this was my text pre-processing. And this text pre-processing is our next step. This is also the first level. This is level 2. Okay. Here we will learn specifically some amazing ways of converting words into vectors. Here we will focus on words. We will focus here. I will write it here also. Wait. Here we will focus. Just a second. Here we will focus on how to convert words to vectors. Okay. So here in text pre-processing I will write bag of words. This is a very amazing way. Bag of words, one hot encoding. Okay. And tf, idf, unigrams, bigram, engrams. We can call all these things like this. Okay. So our second level in our learning process. When we will go from here to here. So in the next step we will read all these things. Bag of words, one hot encoding. Okay. So in the next step we will go to the next step. Bag of words, one hot encoding. Tf, idf, unigrams, engrams. And the main aim of this technique which we are using in level 2. It basically converts any word into vector form. Let's go to the next step which is our level 3. In level 3 we will see very important things. And here we call it level 3 of text pre-processing. And here we will start learning an amazing technique of converting words into vectors. Which we call word2vec. Okay. Word2vec. And we will use a special library which is called gensim. So here I will write gensim. Which will let you implement word2vec easily. And in this we will see two types of word2vec. One is cbow and one is skipgram. Okay. Which is second and level 3. Here we will see how we will make words efficient in a vector. There are some problems in bag of words, one-hot encoding, tf, idf. That's why we use word2vec. Okay. So we will learn how we can convert text into vectors. After this we will go to the next step. And here we will solve some amazing machine learning use cases. How to solve machine learning use cases? We will solve ML use cases here. Now the machine learning use cases which we will solve here. We will basically use algorithms. We will use all these text pre-processing techniques. And some of the use cases. If I talk about the use cases. Some use cases which we call spam classification. Spam classification. Text classification. Text similarity. Text summarization. We will solve all these use cases here in level 4. So here are so many steps. Now let's go to the next step. Here are all these steps till level 4. We will basically work in machine learning till here. Okay. Now when we go to level 5. So first thing you should always have understanding of deep learning. Now we are entering deep learning. So what understanding you should have here? Get the understanding of ANN. ANN means artificial neural network. Which we also call fully connected layers. This will be the very important introduction of our deep learning. Here we will specifically learn loss function. Optimizer. You have to understand all these things. Okay. Already I have made a playlist of all these in Hindi. So that it will be very useful and important for you. Apart from that. If I go to the next step. So after completing this next step. Something called as embedding layers. Embedding layers. This embedding layer is also a text pre-processing technique. Here we will again use word to vec. But from deep learning point of view. How you can make this word to vec in neural network. We will discuss all that. Okay. So this is my level 5. Okay. Level 5. And this is my level 6. So I hope you are understanding this. Okay. And this is the whole road map. I will teach this in this way in this playlist. After that we will enter in some hard techniques. And that technique we will specifically call. RNN. RNN. So after this we will understand what is RNN. What is RNN. What is LSTM RNN. What is Bi-directional LSTM RNN. Apart from that we will see encoders, decoders. Right. Attention models. We will read all these things in the deep learning side. And here we will see how all these models handle text data. And we will see how to solve many different use cases. If I go to another level above this. So the next level that we will use. We will read that. We call it. Transformers. Transformers. And there are many different types of transformers in the transformer. We are going to see all those things. After that the final stage that will be our. We will call it BERT. BERT will be our last step. And here we will use an amazing library specifically. Which we call Hugging Face. Ok. We will know about Hugging Face. Apart from this we will use a library called as NLTK. Spacey. Right. After that we are going to use more libraries. Like Tenserflow. And PyTorch. So we will use all these libraries basically. For practical purpose. So I definitely want to define this type of roadmap for everyone. Because it is a very important roadmap. And it will definitely help you to understand everything. Ok. So let's start the next video of NLP. I will start with text pre-processing. And here I want to keep a combination of theory and practical. But in short this is the roadmap of NLP. And I hope you all have understood the importance of NLP. Sometimes I have some text data or input data. To explain the model I have to do some steps. And to perform some tasks to that model. We will use any text data specifically for natural language processing. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. Let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So let's start. So, So, So, So, So, So, So,"
+}

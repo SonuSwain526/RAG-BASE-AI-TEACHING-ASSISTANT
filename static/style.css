@@ -1,0 +1,260 @@
+/* --- Global & Background --- */
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  background: #0d1117; /* Dark fallback background */
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  /* This is critical for the background */
+  position: relative;
+  overflow: hidden; 
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+/* --- ANIMATED BLOB BACKGROUND (from your example) --- */
+.background-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.blob {
+  position: absolute;
+  /* This is the high-quality blur effect */
+  filter: blur(120px); 
+  opacity: 0.25;
+  border-radius: 50%;
+}
+.blob-1 {
+  background: #ff00ff; /* Pink/Magenta */
+  width: 450px;
+  height: 450px;
+  top: -10%;
+  left: -5%;
+  animation: move-blob-1 25s infinite alternate;
+}
+.blob-2 {
+  background: #00aaff; /* Blue */
+  width: 350px;
+  height: 350px;
+  bottom: -10%;
+  right: -5%;
+  animation: move-blob-2 30s infinite alternate;
+}
+.blob-3 {
+  background: #ffee00; /* Yellow */
+  width: 300px;
+  height: 300px;
+  bottom: 20%;
+  left: 20%;
+  animation: move-blob-3 20s infinite alternate;
+}
+
+
+/* --- Main 2-Column Layout --- */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 90%;
+  max-width: 1400px;
+  height: 90vh;
+  max-height: 800px;
+  
+  /* This makes the layout sit ON TOP of the background */
+  position: relative;
+  z-index: 1;
+}
+
+/* --- Glassmorphism Panel Style --- */
+.panel {
+  /* This is the "frosted glass" effect */
+  background: rgba(22, 27, 34, 0.7);
+  backdrop-filter: blur(12px) saturate(180%);
+  
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Left: Playlist Panel --- */
+#playlist-panel {
+  flex: 1;
+}
+.video-container {
+  width: 100%;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+.promo-text {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+/* --- Right: Chat Panel --- */
+#chat-panel {
+  flex: 1;
+  overflow: hidden;
+}
+
+#chat-box {
+  flex-grow: 1;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* --- Modern Chat Bubbles --- */
+.message {
+  padding: 12px 18px;
+  max-width: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.user {
+  align-self: flex-end;
+  background: #0052cc;
+  color: white;
+  border-radius: 20px 20px 5px 20px;
+}
+
+.bot {
+  align-self: flex-start;
+  background: #30363d;
+  color: #e0e0e0;
+  border-radius: 20px 20px 20px 5px;
+}
+
+/* --- Typing Indicator (CSS-Only!) --- */
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 12px 18px;
+}
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #777;
+  border-radius: 50%;
+  animation: bounce 1.3s infinite;
+}
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+
+/* --- Input Area --- */
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #1c1c1c;
+  color: white;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: #0052cc;
+}
+
+#send-btn {
+  background: #238636;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#send-btn svg { width: 20px; height: 20px; }
+#send-btn:hover { background: #2ea043; }
+
+/* --- Keyframe Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* --- Background Blob Animations --- */
+@keyframes move-blob-1 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40vw, 30vh) scale(1.2); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+@keyframes move-blob-2 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-30vw, -20vh) scale(0.8); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+@keyframes move-blob-3 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(20vw, -15vh) scale(1.1); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 900px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+    height: auto;
+    max-height: none;
+    width: 100%;
+  }
+  #chat-panel {
+    height: 70vh;
+    flex: 1;
+    overflow: hidden; /* <-- ADD THIS LINE */
+  }
+  .blob {
+    filter: blur(80px); /* Less blur on mobile */
+    opacity: 0.3;
+  }
+}

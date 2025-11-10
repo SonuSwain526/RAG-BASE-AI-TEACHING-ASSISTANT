@@ -1,0 +1,368 @@
+[
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 0.0,
+        "end": 24.0,
+        "text": "Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, in today's video we are going to discuss why natural language processing? Apart from that, we will understand some basic terminology in NLP. If you want to study NLP, it is very important to know these basic terminologies because whatever topics we will read in the future, we will definitely use these basic terminologies."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 24.0,
+        "end": 51.0,
+        "text": "If you know that I have already started NLP playlist in my Data Science Hindi channel, please make sure that you subscribe the channel, share the channel with all your friends, ask them to subscribe the channel because I am making all the videos of Data Science in Hindi. So this will be very helpful for me guys. Please share the channel so that more and more people get to know about these videos."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 51.0,
+        "end": 61.0,
+        "text": "In this video, we have a target of like. At least 3 likes. So that more and more people get this notification. What happens when there are likes? When there is interaction in it, right?"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 61.0,
+        "end": 75.0,
+        "text": "So all this will be discussed. So let's go without wasting any time. Let's go and the first question we are going to discuss is why NLP? And this is super super important. Why is it important for us to study natural language processing?"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 75.0,
+        "end": 96.0,
+        "text": "And in today's research, the most research is done in natural language processing. Apart from that, in video related type of projects, where we use specifically object detection in all these things. But in NLP, there is a lot of research. So it is very important for you to know about NLP if you want to work in the data science industry."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 96.0,
+        "end": 112.0,
+        "text": "And a lot of use cases are related to NLP. So let's understand the first question that why NLP? Now guys, till now, we have seen a lot of examples of supervised machine learning in all the videos. Okay. So if I talk here, then I will say that,"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 112.0,
+        "end": 128.0,
+        "text": "if I talk about supervised machine learning, either we are solving regression problem statement here or we are solving classification problem. Right? Now in both these problem statements, if I take an example of any data set, okay?"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 128.0,
+        "end": 142.0,
+        "text": "Now in the data set, let's say that we have a lot of features. F1, F2, F3, F4. I will call these features input features or independent features. Right? And we have another feature which we call output features."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 142.0,
+        "end": 158.0,
+        "text": "Now according to this feature, we basically predict this feature. And in my training data, there is also real output. Okay? So here, let's say that I have some value and this is my output feature. So I write this output feature here specifically."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 158.0,
+        "end": 176.0,
+        "text": "Now when you will see in such type of data set, most of the indexes are either numerical values or categorical values. Okay? If I tell you about numerical values in the example, one example of numerical value can be,"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 176.0,
+        "end": 182.0,
+        "text": "one feature is age, one can be categorical, one can be gender. Right? So there are such types of features here in input features."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 182.0,
+        "end": 192.0,
+        "text": "And according to that, we have to predict output basically, train our model, this is in complete data set. But what happens in the case of NLP? If I talk about it,"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 192.0,
+        "end": 203.0,
+        "text": "let's say that I have such a data set, and in that data set, I have one feature, complete text data. And apart from that, I have one feature, output data."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 203.0,
+        "end": 211.0,
+        "text": "Okay? What happens in this text data? My normal text information happens. Normal text information means, let's say that this is my use case,"
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 211.0,
+        "end": 225.0,
+        "text": "where I am trying to find out sentiment analysis. Sentiment analysis. Sentiment analysis is basically the sentiment of people. So here people will probably give mostly reviews. Let's say."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 225.0,
+        "end": 233.0,
+        "text": "They are giving reviews. Now here in reviews, obviously your text data is there, and according to this, your sentiment is high or low, something like this can happen."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 233.0,
+        "end": 240.0,
+        "text": "So like this, all your information happens, right? Okay? Let's say this is zero, like this my whole text information happens."
+    },
+    {
+        "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+        "start": 240.0,
+        "end": 245.0,
+        "text": "This text information, one sentence, two sentences, three sentences, according to this can happen."
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 0.0,
+        "end": 20.0,
+        "text": "Hello all my name is Krishna Aayak and welcome to my youtube channel So guys in today's video we are going to see third tutorial of NLP which we call tokenization Now we understand what is tokenization process In my previous video we saw basic terminology of NLP Which is called corpus, documents, vocabulary and words"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 20.0,
+        "end": 43.0,
+        "text": "We call corpus as paragraph and documents as sentences Vocabulary as unique number of words in the dictionary and words as a specific word Now what is tokenization process? Always remember this and tokenization is very important At the end of the day we take any text data in NLP"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 43.0,
+        "end": 67.0,
+        "text": "We will pre-process it and then we will convert it into vectors For pre-processing we need to use tokenization Now what is tokenization? Tokenization is a process where we will generate tokens We will generate tokens from the corpus"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 67.0,
+        "end": 85.0,
+        "text": "Now what is tokenization? Let's say we have a paragraph If I want to convert this paragraph into a sentence Then I will use sentence tokenization So that we can generate a sentence from it"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 85.0,
+        "end": 109.0,
+        "text": "If I have a paragraph or sentence If I want to display all the words in one place Then I will use words tokenizer Now what is sentence tokenizer and what is words tokenizer? These are all methods and I will call these sentences tokens in this paragraph"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 109.0,
+        "end": 129.0,
+        "text": "So this is a process where we will use tokens In any sentence or paragraph we will try to generate tokens In this case we have token in sentences and word tokens Now let's see how we can use Python programming language Here I will use NLT library"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 129.0,
+        "end": 141.0,
+        "text": "After that I will write a normal sentence How we can generate sentence or words from it Which we will call tokens So this is an entire process So let's go without wasting any time"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 141.0,
+        "end": 157.0,
+        "text": "And let's understand Here is our entire code Now first thing is if you don't have a library Then please make sure you install pip pip install nltk"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 157.0,
+        "end": 173.0,
+        "text": "You can install this library We will see later how to use specie and other things But for now we will use nltk Now I will take a simple sentence And let's say this is my corpus"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 173.0,
+        "end": 191.0,
+        "text": "Corpus means paragraph And here I will write Hello welcome to Prash Nayak Hindi YouTube Prash Nayak's Hindi YouTube channel Ok"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 191.0,
+        "end": 203.0,
+        "text": "And full stop And after that I will write here And after that if I go to a new line Then it also captures a new line Please do subscribe the channel"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 203.0,
+        "end": 212.0,
+        "text": "Ok And here is my full stop And here is my simple sentence I have executed it Now if I"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 212.0,
+        "end": 223.0,
+        "text": "This is my corpus Obviously I have a paragraph If I will do the first thing Where in I am converting a paragraph To a token which is called a sentence"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 223.0,
+        "end": 231.0,
+        "text": "Ok Now if I want to extract a sentence from a paragraph So how can I do it? So what I will do is I will use import nltk"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 231.0,
+        "end": 242.0,
+        "text": "And I can do one more thing That I can take tokenize from nltk Ok So what I will do is From nltk dot tokenize"
+    },
+    {
+        "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+        "start": 242.0,
+        "end": 9.0,
+        "text": "Ok And in the nltk libraries This whole thing is mentioned Hello all, my name is Krishnayak and welcome to my YouTube channel. So guys, we will continue the NLP playlist and in today's video we will see stemming vs lemmatization."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 9.0,
+        "end": 34.0,
+        "text": "Now we will understand what is stemming in NLP, natural language processing and what is lemmatization. And we will also see different types of stemming because stemming is not in just one type which we usually know from Porter stemmer and we will also do practical implementation with Python. So let's start without wasting any time. If you are new to my channel, please make sure that you subscribe to the channel, press the bell notification icon"
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 34.0,
+        "end": 55.0,
+        "text": "and yes, please watch the video till the end. So let's first of all see the definition of stemming and then we will move on to practical implementation. So stemming is the process of reducing a word to its word stem. Here this word is very important, word stem, always remember this. One more thing is word root."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 55.0,
+        "end": 87.0,
+        "text": "So we will see the differences between the two. So stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of the word known as lemma. Stemming is important in natural language understanding and even it is used in natural language processing. So in this much definition, you just have to remember that we will try to find out the base form of the words, their word stem. So if we want to know the definition of stemming, we have to find out the base form of the words, their word stem."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 87.0,
+        "end": 107.0,
+        "text": "So if we want to implement stemming, we will use NLTK again. So here I will write the code directly from nltk.stem. I am going to import porter stemmer. So when I import porter stemmer, it means I can use stemming. So for porter stemmer, I initialize it."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 107.0,
+        "end": 135.0,
+        "text": "Stemming is equal to porter stemmer. And here if you see, this is basically our word stemmer based on the porter stemming algorithm. So the algorithm that we are going to use is called Porter stemming algorithm. If you want to know more about this, then you can definitely go to NLTK and search about it. So if I see here, nltk.stem.porter, you can go here and read about them completely."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 135.0,
+        "end": 146.0,
+        "text": "What does porter, stemmer do and what all things they take. You will get all this in the documentation. But now let's focus on solving it. So I have initialized here. What am I going to do?"
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 146.0,
+        "end": 170.0,
+        "text": "I am going to take some words which will be my unique words. Let's say that all these are my words. And here I have taken a list of words like eating, its, eaten, writing, rights, programming, programs, history, finally and finalized. Now what I am going to do is I am going to apply stemming here. So here see, when I write for words in words."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 170.0,
+        "end": 189.0,
+        "text": "I just print it. And this is my word initialization. And with this I write a notation. And after this I do stem. To do stem I write stemming.stem."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 189.0,
+        "end": 208.0,
+        "text": "And here I write my word specifically. So basically this is the output. It will take every word and will do stem on it. And if you want to know what stem does, then it will find out our word stem for a specific word. So if I execute here."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 208.0,
+        "end": 234.0,
+        "text": "So you see here it comes eating, its, eaten, writing, rights, programming, programs, programs, and here you are seeing history. This is basically HISTORI. And finally you see finalized and finalized. So here we have basically found a word stem of all these words. But one problem which you are seeing."
+    },
+    {
+        "title": "Tutorial 4- Stemming And Lemmatization And Its Implementation NLP_Krish NAik(1)",
+        "start": 234.0,
+        "end": 8.0,
+        "text": "History is basically done. HISTORI. Now apart from that if you see stemming has many disadvantages. Hello all, my name is Krish Nayak and welcome to Krish Nayak Hindi YouTube channel. So guys, we are going to continue our NLP playlist series."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 8.0,
+        "end": 36.0,
+        "text": "I have already uploaded 3-4 videos on tokenization, lemmatization and all these things. But it was a bit late to upload the videos that were coming up because there are a lot of work to do. Apart from that, I have to upload videos on my main channel as well. So a lot of kids were requesting me to complete this playlist. So yes, I am following the strategy that I should at least complete this playlist for you all."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 36.0,
+        "end": 56.0,
+        "text": "We are going to read a lot of amazing things in this NLP playlist. After that, all these NLP playlists are going to be linked with the generative AI playlist. Because they will have a continuation. And according to me, NLP is a very important thing in today's time. Natural language processing, because if we talk about generative AI, LLM application,"
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 56.0,
+        "end": 70.0,
+        "text": "then amazing development is happening. Okay? So guys, we are going to continue this series. I will explain you about vectors with a complete basic scratch. I will explain you about text pre-processing, what are the techniques in it."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 70.0,
+        "end": 88.0,
+        "text": "Apart from that, how to do practical implementations, word to word, what is word embedding. There are going to be a lot of videos like this going forward. After that, we will connect this with deep learning NLP. Okay? So just try as much as you can to share my videos as much as possible."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 88.0,
+        "end": 105.0,
+        "text": "Because Hindi channel is very important for Hindi medium people. Because I have only uploaded Python, machine learning and stats playlist. I have only uploaded 4-5 videos of deep learning. After that, I have to continue. Now I want to focus on uploading as many videos as possible in Hindi playlist."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 105.0,
+        "end": 120.0,
+        "text": "All these things will be very beneficial for you guys. So please make sure that you keep liking, sharing and filling the comment section. With good comments. So let's start. I will share my screen."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 120.0,
+        "end": 138.0,
+        "text": "I will make sure that I keep my face hidden. Because I want to write with many examples here. So I don't want anything to be hidden from my face. I have received this feedback from my main channel specifically. So we are going to continue now."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 138.0,
+        "end": 149.0,
+        "text": "Now we are going to talk about text pre-processing. Now what is further in text pre-processing? Okay? See what things come in text pre-processing. Like your stemming, lemmatization, all these things."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 149.0,
+        "end": 161.0,
+        "text": "If I have my words, I have to lowercase them. So that is basically a text pre-processing. But most of the NLP use cases, if I talk about machine learning. So what happens? Let's understand one use case."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 161.0,
+        "end": 173.0,
+        "text": "Its name is sentiment analysis. Let's say we consider this use case. Now here is my data. Let's say this sentence 1 says that if the food is good, then output is equal to 1. Means this is a positive feedback."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 173.0,
+        "end": 183.0,
+        "text": "Okay? The food is bad. So here the output is 0. Means this is a negative feedback. And if I see in the third sentence, then it is written here, pizza is amazing."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 183.0,
+        "end": 196.0,
+        "text": "So here also you can see that this is 1. Means this is also a positive sentiment analysis. Means it is positive sentiment. Now this is my data. Now I will focus on this text data."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 196.0,
+        "end": 209.0,
+        "text": "This text data. Where I have written that the food is good. Now to say this food is good, as a we human being. If we want to understand this sentence, then this will be very easy. Right?"
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 209.0,
+        "end": 220.0,
+        "text": "Because the food is good, we are already trained. We know English language. So obviously we can easily say, okay bro, this food is good. Means the food is good. In this, he is telling you this."
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 220.0,
+        "end": 230.0,
+        "text": "So obviously it means it will be a positive sentiment. Okay? But how will you be able to understand a machine? Sorry, how will you be able to understand an algorithm? Right?"
+    },
+    {
+        "title": "Tutorial 5- Plan Of Learning Text Embedding In NLP- Krish Naik Hindi(1)",
+        "start": 230.0,
+        "end": 240.0,
+        "text": "That is not possible. Because the algorithm, unless and until it is not trained in the data set. Right? Then the algorithm will not be able to understand it. Now the most important thing, do we know the algorithm?"
+    }
+]

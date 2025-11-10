@@ -1,0 +1,209 @@
+{
+    "chunk": [
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 0.0,
+            "end": 24.0,
+            "text": "Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, in today's video we are going to discuss why natural language processing? Apart from that, we will understand some basic terminology in NLP. If you want to study NLP, it is very important to know these basic terminologies because whatever topics we will read in the future, we will definitely use these basic terminologies."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 24.0,
+            "end": 51.0,
+            "text": "If you know that I have already started NLP playlist in my Data Science Hindi channel, please make sure that you subscribe the channel, share the channel with all your friends, ask them to subscribe the channel because I am making all the videos of Data Science in Hindi. So this will be very helpful for me guys. Please share the channel so that more and more people get to know about these videos."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 51.0,
+            "end": 61.0,
+            "text": "In this video, we have a target of like. At least 3 likes. So that more and more people get this notification. What happens when there are likes? When there is interaction in it, right?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 61.0,
+            "end": 75.0,
+            "text": "So all this will be discussed. So let's go without wasting any time. Let's go and the first question we are going to discuss is why NLP? And this is super super important. Why is it important for us to study natural language processing?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 75.0,
+            "end": 96.0,
+            "text": "And in today's research, the most research is done in natural language processing. Apart from that, in video related type of projects, where we use specifically object detection in all these things. But in NLP, there is a lot of research. So it is very important for you to know about NLP if you want to work in the data science industry."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 96.0,
+            "end": 112.0,
+            "text": "And a lot of use cases are related to NLP. So let's understand the first question that why NLP? Now guys, till now, we have seen a lot of examples of supervised machine learning in all the videos. Okay. So if I talk here, then I will say that,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 112.0,
+            "end": 128.0,
+            "text": "if I talk about supervised machine learning, either we are solving regression problem statement here or we are solving classification problem. Right? Now in both these problem statements, if I take an example of any data set, okay?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 128.0,
+            "end": 142.0,
+            "text": "Now in the data set, let's say that we have a lot of features. F1, F2, F3, F4. I will call these features input features or independent features. Right? And we have another feature which we call output features."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 142.0,
+            "end": 158.0,
+            "text": "Now according to this feature, we basically predict this feature. And in my training data, there is also real output. Okay? So here, let's say that I have some value and this is my output feature. So I write this output feature here specifically."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 158.0,
+            "end": 176.0,
+            "text": "Now when you will see in such type of data set, most of the indexes are either numerical values or categorical values. Okay? If I tell you about numerical values in the example, one example of numerical value can be,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 176.0,
+            "end": 182.0,
+            "text": "one feature is age, one can be categorical, one can be gender. Right? So there are such types of features here in input features."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 182.0,
+            "end": 192.0,
+            "text": "And according to that, we have to predict output basically, train our model, this is in complete data set. But what happens in the case of NLP? If I talk about it,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 192.0,
+            "end": 203.0,
+            "text": "let's say that I have such a data set, and in that data set, I have one feature, complete text data. And apart from that, I have one feature, output data."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 203.0,
+            "end": 211.0,
+            "text": "Okay? What happens in this text data? My normal text information happens. Normal text information means, let's say that this is my use case,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 211.0,
+            "end": 225.0,
+            "text": "where I am trying to find out sentiment analysis. Sentiment analysis. Sentiment analysis is basically the sentiment of people. So here people will probably give mostly reviews. Let's say."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 225.0,
+            "end": 233.0,
+            "text": "They are giving reviews. Now here in reviews, obviously your text data is there, and according to this, your sentiment is high or low, something like this can happen."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 233.0,
+            "end": 240.0,
+            "text": "So like this, all your information happens, right? Okay? Let's say this is zero, like this my whole text information happens."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 240.0,
+            "end": 245.0,
+            "text": "This text information, one sentence, two sentences, three sentences, according to this can happen."
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 0.0,
+            "end": 20.0,
+            "text": "Hello all my name is Krishna Aayak and welcome to my youtube channel So guys in today's video we are going to see third tutorial of NLP which we call tokenization Now we understand what is tokenization process In my previous video we saw basic terminology of NLP Which is called corpus, documents, vocabulary and words"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 20.0,
+            "end": 43.0,
+            "text": "We call corpus as paragraph and documents as sentences Vocabulary as unique number of words in the dictionary and words as a specific word Now what is tokenization process? Always remember this and tokenization is very important At the end of the day we take any text data in NLP"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 43.0,
+            "end": 67.0,
+            "text": "We will pre-process it and then we will convert it into vectors For pre-processing we need to use tokenization Now what is tokenization? Tokenization is a process where we will generate tokens We will generate tokens from the corpus"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 67.0,
+            "end": 85.0,
+            "text": "Now what is tokenization? Let's say we have a paragraph If I want to convert this paragraph into a sentence Then I will use sentence tokenization So that we can generate a sentence from it"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 85.0,
+            "end": 109.0,
+            "text": "If I have a paragraph or sentence If I want to display all the words in one place Then I will use words tokenizer Now what is sentence tokenizer and what is words tokenizer? These are all methods and I will call these sentences tokens in this paragraph"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 109.0,
+            "end": 129.0,
+            "text": "So this is a process where we will use tokens In any sentence or paragraph we will try to generate tokens In this case we have token in sentences and word tokens Now let's see how we can use Python programming language Here I will use NLT library"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 129.0,
+            "end": 141.0,
+            "text": "After that I will write a normal sentence How we can generate sentence or words from it Which we will call tokens So this is an entire process So let's go without wasting any time"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 141.0,
+            "end": 157.0,
+            "text": "And let's understand Here is our entire code Now first thing is if you don't have a library Then please make sure you install pip pip install nltk"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 157.0,
+            "end": 173.0,
+            "text": "You can install this library We will see later how to use specie and other things But for now we will use nltk Now I will take a simple sentence And let's say this is my corpus"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 173.0,
+            "end": 191.0,
+            "text": "Corpus means paragraph And here I will write Hello welcome to Prash Nayak Hindi YouTube Prash Nayak's Hindi YouTube channel Ok"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 191.0,
+            "end": 203.0,
+            "text": "And full stop And after that I will write here And after that if I go to a new line Then it also captures a new line Please do subscribe the channel"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 203.0,
+            "end": 212.0,
+            "text": "Ok And here is my full stop And here is my simple sentence I have executed it Now if I"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 212.0,
+            "end": 223.0,
+            "text": "This is my corpus Obviously I have a paragraph If I will do the first thing Where in I am converting a paragraph To a token which is called a sentence"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 223.0,
+            "end": 231.0,
+            "text": "Ok Now if I want to extract a sentence from a paragraph So how can I do it? So what I will do is I will use import nltk"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 231.0,
+            "end": 242.0,
+            "text": "And I can do one more thing That I can take tokenize from nltk Ok So what I will do is From nltk dot tokenize"
+        },
+        {
+            "title": "Tutorial 3-What Is Tokenization And Its Implementation In Python_Krish Naik(1)",
+            "start": 242.0,
+            "end": 245.0,
+            "text": "Ok And in the nltk libraries This whole thing is mentioned"
+        }
+    ],
+    "text": " Hello all my name is Krishna Aayak and welcome to my youtube channel So guys in today's video we are going to see third tutorial of NLP which we call tokenization Now we understand what is tokenization process In my previous video we saw basic terminology of NLP Which is called corpus, documents, vocabulary and words We call corpus as paragraph and documents as sentences Vocabulary as unique number of words in the dictionary and words as a specific word Now what is tokenization process? Always remember this and tokenization is very important At the end of the day we take any text data in NLP We will pre-process it and then we will convert it into vectors For pre-processing we need to use tokenization Now what is tokenization? Tokenization is a process where we will generate tokens We will generate tokens from the corpus Now what is tokenization? Let's say we have a paragraph If I want to convert this paragraph into a sentence Then I will use sentence tokenization So that we can generate a sentence from it If I have a paragraph or sentence If I want to display all the words in one place Then I will use words tokenizer Now what is sentence tokenizer and what is words tokenizer? These are all methods and I will call these sentences tokens in this paragraph So this is a process where we will use tokens In any sentence or paragraph we will try to generate tokens In this case we have token in sentences and word tokens Now let's see how we can use Python programming language Here I will use NLT library After that I will write a normal sentence How we can generate sentence or words from it Which we will call tokens So this is an entire process So let's go without wasting any time And let's understand Here is our entire code Now first thing is if you don't have a library Then please make sure you install pip pip install nltk You can install this library We will see later how to use specie and other things But for now we will use nltk Now I will take a simple sentence And let's say this is my corpus Corpus means paragraph And here I will write Hello welcome to Prash Nayak Hindi YouTube Prash Nayak's Hindi YouTube channel Ok And full stop And after that I will write here And after that if I go to a new line Then it also captures a new line Please do subscribe the channel Ok And here is my full stop And here is my simple sentence I have executed it Now if I This is my corpus Obviously I have a paragraph If I will do the first thing Where in I am converting a paragraph To a token which is called a sentence Ok Now if I want to extract a sentence from a paragraph So how can I do it? So what I will do is I will use import nltk And I can do one more thing That I can take tokenize from nltk Ok So what I will do is From nltk dot tokenize Ok And in the nltk libraries This whole thing is mentioned"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NLP Teaching Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="background-gradient">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="main-layout">
+<div class="panel" id="playlist-panel">
+  <h2>Krish Naik: NLP (Hindi)</h2>
+  <div class="video-container">
+    <iframe 
+      width="100%" 
+      height="100%" 
+      src="https://www.youtube.com/embed/videoseries?list=PLTDARY42LDV67aWThoZxflLYGnD3Rh3VG" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="promo-text">Watch a video, then ask me anything about it!</p>
+</div>
+
+    <div class="panel" id="chat-panel">
+      <h1>🎓 NLP Teaching Assistant</h1>
+      <div id="chat-box">
+        <div class="message bot">
+          Hello Gourab! I'm your assistant for this NLP course. Ask me anything about the videos.
+        </div>
+      </div>
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask your NLP question...">
+        <button id="send-btn" onclick="sendQuestion()">
+          <svg xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

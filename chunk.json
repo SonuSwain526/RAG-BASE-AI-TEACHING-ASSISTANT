@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "start": 0.0,
+        "end": [
+            "end"
+        ],
+        "text": " Hello all, my name is Krishna Aayak and welcome to my YouTube channel."
+    },
+    {
+        "id": 1,
+        "start": 4.0,
+        "end": [
+            "end"
+        ],
+        "text": " So guys, today I am going to start an amazing playlist called Natural Language Processing."
+    },
+    {
+        "id": 2,
+        "start": 10.0,
+        "end": [
+            "end"
+        ],
+        "text": " Now this is a very important playlist. We have seen machine learning, deep learning, stats, python."
+    },
+    {
+        "id": 3,
+        "start": 19.0,
+        "end": [
+            "end"
+        ],
+        "text": " Now what is natural language processing? What is its roadmap if you want to read it?"
+    },
+    {
+        "id": 4,
+        "start": 25.0,
+        "end": [
+            "end"
+        ],
+        "text": " And always remember that natural language processing can be done with machine learning and deep learning."
+    }
+]

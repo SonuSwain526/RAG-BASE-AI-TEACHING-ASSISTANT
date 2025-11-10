@@ -1,0 +1,113 @@
+{
+    "chunk": [
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 0.0,
+            "end": 24.0,
+            "text": "Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, in today's video we are going to discuss why natural language processing? Apart from that, we will understand some basic terminology in NLP. If you want to study NLP, it is very important to know these basic terminologies because whatever topics we will read in the future, we will definitely use these basic terminologies."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 24.0,
+            "end": 51.0,
+            "text": "If you know that I have already started NLP playlist in my Data Science Hindi channel, please make sure that you subscribe the channel, share the channel with all your friends, ask them to subscribe the channel because I am making all the videos of Data Science in Hindi. So this will be very helpful for me guys. Please share the channel so that more and more people get to know about these videos."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 51.0,
+            "end": 61.0,
+            "text": "In this video, we have a target of like. At least 3 likes. So that more and more people get this notification. What happens when there are likes? When there is interaction in it, right?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 61.0,
+            "end": 75.0,
+            "text": "So all this will be discussed. So let's go without wasting any time. Let's go and the first question we are going to discuss is why NLP? And this is super super important. Why is it important for us to study natural language processing?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 75.0,
+            "end": 96.0,
+            "text": "And in today's research, the most research is done in natural language processing. Apart from that, in video related type of projects, where we use specifically object detection in all these things. But in NLP, there is a lot of research. So it is very important for you to know about NLP if you want to work in the data science industry."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 96.0,
+            "end": 112.0,
+            "text": "And a lot of use cases are related to NLP. So let's understand the first question that why NLP? Now guys, till now, we have seen a lot of examples of supervised machine learning in all the videos. Okay. So if I talk here, then I will say that,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 112.0,
+            "end": 128.0,
+            "text": "if I talk about supervised machine learning, either we are solving regression problem statement here or we are solving classification problem. Right? Now in both these problem statements, if I take an example of any data set, okay?"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 128.0,
+            "end": 142.0,
+            "text": "Now in the data set, let's say that we have a lot of features. F1, F2, F3, F4. I will call these features input features or independent features. Right? And we have another feature which we call output features."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 142.0,
+            "end": 158.0,
+            "text": "Now according to this feature, we basically predict this feature. And in my training data, there is also real output. Okay? So here, let's say that I have some value and this is my output feature. So I write this output feature here specifically."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 158.0,
+            "end": 176.0,
+            "text": "Now when you will see in such type of data set, most of the indexes are either numerical values or categorical values. Okay? If I tell you about numerical values in the example, one example of numerical value can be,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 176.0,
+            "end": 182.0,
+            "text": "one feature is age, one can be categorical, one can be gender. Right? So there are such types of features here in input features."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 182.0,
+            "end": 192.0,
+            "text": "And according to that, we have to predict output basically, train our model, this is in complete data set. But what happens in the case of NLP? If I talk about it,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 192.0,
+            "end": 203.0,
+            "text": "let's say that I have such a data set, and in that data set, I have one feature, complete text data. And apart from that, I have one feature, output data."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 203.0,
+            "end": 211.0,
+            "text": "Okay? What happens in this text data? My normal text information happens. Normal text information means, let's say that this is my use case,"
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 211.0,
+            "end": 225.0,
+            "text": "where I am trying to find out sentiment analysis. Sentiment analysis. Sentiment analysis is basically the sentiment of people. So here people will probably give mostly reviews. Let's say."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 225.0,
+            "end": 233.0,
+            "text": "They are giving reviews. Now here in reviews, obviously your text data is there, and according to this, your sentiment is high or low, something like this can happen."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 233.0,
+            "end": 240.0,
+            "text": "So like this, all your information happens, right? Okay? Let's say this is zero, like this my whole text information happens."
+        },
+        {
+            "title": "Tutorial 2- Hindi-Why To Learn Natural Language Processing(NLP) And Basic Terminologies_Krish Naik(1)",
+            "start": 240.0,
+            "end": 245.0,
+            "text": "This text information, one sentence, two sentences, three sentences, according to this can happen."
+        }
+    ],
+    "text": " Hello all, my name is Krishna Aayak and welcome to my YouTube channel. So guys, in today's video we are going to discuss why natural language processing? Apart from that, we will understand some basic terminology in NLP. If you want to study NLP, it is very important to know these basic terminologies because whatever topics we will read in the future, we will definitely use these basic terminologies. If you know that I have already started NLP playlist in my Data Science Hindi channel, please make sure that you subscribe the channel, share the channel with all your friends, ask them to subscribe the channel because I am making all the videos of Data Science in Hindi. So this will be very helpful for me guys. Please share the channel so that more and more people get to know about these videos. In this video, we have a target of like. At least 3 likes. So that more and more people get this notification. What happens when there are likes? When there is interaction in it, right? So all this will be discussed. So let's go without wasting any time. Let's go and the first question we are going to discuss is why NLP? And this is super super important. Why is it important for us to study natural language processing? And in today's research, the most research is done in natural language processing. Apart from that, in video related type of projects, where we use specifically object detection in all these things. But in NLP, there is a lot of research. So it is very important for you to know about NLP if you want to work in the data science industry. And a lot of use cases are related to NLP. So let's understand the first question that why NLP? Now guys, till now, we have seen a lot of examples of supervised machine learning in all the videos. Okay. So if I talk here, then I will say that, if I talk about supervised machine learning, either we are solving regression problem statement here or we are solving classification problem. Right? Now in both these problem statements, if I take an example of any data set, okay? Now in the data set, let's say that we have a lot of features. F1, F2, F3, F4. I will call these features input features or independent features. Right? And we have another feature which we call output features. Now according to this feature, we basically predict this feature. And in my training data, there is also real output. Okay? So here, let's say that I have some value and this is my output feature. So I write this output feature here specifically. Now when you will see in such type of data set, most of the indexes are either numerical values or categorical values. Okay? If I tell you about numerical values in the example, one example of numerical value can be, one feature is age, one can be categorical, one can be gender. Right? So there are such types of features here in input features. And according to that, we have to predict output basically, train our model, this is in complete data set. But what happens in the case of NLP? If I talk about it, let's say that I have such a data set, and in that data set, I have one feature, complete text data. And apart from that, I have one feature, output data. Okay? What happens in this text data? My normal text information happens. Normal text information means, let's say that this is my use case, where I am trying to find out sentiment analysis. Sentiment analysis. Sentiment analysis is basically the sentiment of people. So here people will probably give mostly reviews. Let's say. They are giving reviews. Now here in reviews, obviously your text data is there, and according to this, your sentiment is high or low, something like this can happen. So like this, all your information happens, right? Okay? Let's say this is zero, like this my whole text information happens. This text information, one sentence, two sentences, three sentences, according to this can happen."
+}
